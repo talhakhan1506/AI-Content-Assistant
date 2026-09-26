@@ -62,7 +62,7 @@ if st.button("Generate Content", type="primary"):
                         {"role": "system", "content": "You are a professional social media and content strategist."},
                         {"role": "user", "content": prompt}
                     ],
-                    model="llama-3.3-70b-versatile",
+                    model="openai/gpt-oss-120b",
                     temperature=0.7,
                 )
 
